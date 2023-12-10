@@ -1,1 +1,210 @@
+body{
+scroll-snap-type: proximity;
+}
+.navbar{
+    width: 100%;
+    position: relative;
 
+
+}
+.navtab{
+    margin: 2px;
+}
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.713); /* Set the background color with transparency */
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-nav {
+    margin-left: 70%;
+}
+.navbar-nav li{
+    margin-left: 20px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-nav li:hover{
+    color:rgba(5, 252, 153, 0.566);
+}
+
+/*Navbar end basic Content*/
+.head2 h1{
+    text-align: center; 
+    color:rgba(0, 0, 0, 0.812);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.head2 h3{
+    color: rgba(27, 51, 42, 0.812);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+.head2 h5{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+#heading{
+    align-items: center;
+    align-self: center;
+    padding-right: 20%;
+    height: 50px;
+    display: flex;
+   
+    
+}
+
+.headtext{
+    padding-right: 20%;
+    height: 50px;
+    align-items: center;
+    align-self: center;
+}
+body{
+     background-image: url("/Images/bg\ Home\ \(3\).jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size: cover;
+}
+.home{
+    
+    padding: 10%;
+    width: 95%;
+    
+    background-position:center;
+    background-repeat:no-repeat;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+   
+.home .carousel-inner image{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.card {
+    border: none;
+    width:100%;
+    background-color: rgba(240, 248, 255, 0.178);
+   
+}
+
+.hc {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a maximum height to avoid overlap */
+    margin: 10px;
+}
+@media (max-width: 600px) {
+    /* navbar*/
+.navbar-nav {
+    margin-left: 10px;
+}
+.navbar-nav li{
+    margin-left: 20px;
+    width:40%;
+    border-radius: 0px;
+    background-color: none;
+   
+}
+    
+    /* Styles to apply when the screen size is 600 pixels or less */
+    .card {
+        border: none;
+        display: block;
+        font-size: medium;
+        
+    }
+    .hc {
+        width: 100%;
+        height: 50px;
+
+       /* Set a maximum height to avoid overlap */
+       padding-right: 20px;
+       
+       
+    }
+    .card-body{
+        display: block;
+    }
+    h3{
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    
+    .about .card img{
+        height: 50px;
+        width: 50px;
+      
+      
+        border: 2px solid red;
+        border-radius: 100px;
+    
+    }
+    .about-club{
+        display: grid;
+    }
+    .about-club .col-md-6 {
+        width: 310px;
+    }
+    .about-club .card {
+        display: grid;
+        flex-direction: column;
+      }
+   
+}
+/*login page */
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/*about*/
+.about{
+   
+
+    height: 400px;
+    width: 100%;
+     margin: 2px;
+ 
+   
+
+}
+ .about .card{
+   
+    height: 400px;
+   text-align: center;
+   background-color: rgba(169, 89, 19, 0.227);
+   
+    
+} 
+.about .card img{
+    height: 210px;
+    width: 210px;
+ 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+
+}
+
+/*About-CLub*/
+.about-club .card{
+    margin: 10px;
+}
